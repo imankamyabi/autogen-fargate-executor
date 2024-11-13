@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Documentation
+site/
+docs/_build/
+
+# Poetry
+poetry.lock
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage/
+.hypothesis/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+.cache
+.local
+
+# AWS
+.aws/
+*.pem
+
+# Distribution / packaging
+*.tar.gz
+*.tgz
+*.zip
+
+# Environment specific
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Project specific
+test_output/
+tmp/
+*.db
+*.sqlite3

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "autogen-fargate-executor"
+version = "0.1.0"
+description = "Code executor that runs code in AWS Fargate containers for AutoGen"
+authors = ["Iman Kamyabi <engkamyabi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.34.0"
+autogen-agentchat = "^0.2.38"
+flaml = {extras = ["automl"], version = "^2.3.2"}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
