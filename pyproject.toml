@@ -1,8 +1,28 @@
 [tool.poetry]
 name = "autogen-fargate-executor"
 version = "0.1.0"
-description = "Code executor that runs code in AWS Fargate containers for AutoGen"
+description = "AWS Fargate code executor for AutoGen - Run code securely and scale beyond local resources"
 authors = ["Iman Kamyabi <engkamyabi@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/imankamyabi/autogen-fargate-executor"
+repository = "https://github.com/imankamyabi/autogen-fargate-executor"
+documentation = "https://github.com/imankamyabi/autogen-fargate-executor#readme"
+keywords = ["autogen", "aws", "fargate", "executor", "serverless", "ai", "code-execution"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: System :: Distributed Computing",
+]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
